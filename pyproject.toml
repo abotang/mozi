@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mozi-rl-sdk"
+version = "0.1.0"
+description = "Mozi game reinforcement learning environment SDK"
+readme = "docs/rl_environment.md"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31,<3", "websocket-client>=1.7,<2"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mozi_rl*", "src", "src.basic_actions*", "src.mozi_api*", "src.rl_env*"]
