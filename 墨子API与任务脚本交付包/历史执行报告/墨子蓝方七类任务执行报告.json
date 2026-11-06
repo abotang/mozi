@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "executedAt": "2026-11-06 10:12:09 +08:00",
+  "config": "C:\\Users\\hs123\\Desktop\\墨子任务调度架构\\墨子蓝方七类任务配置.current.json",
+  "side": {
+    "name": "蓝方",
+    "guid": "bc47d6c9-2492-46a8-abe4-bbe39dc65aa8"
+  },
+  "tasks": [
+    {
+      "key": "airEarlyWarning",
+      "name": "空中预警任务",
+      "missionGuid": "51493597-3030-4ce1-98f1-d278a4a4e598",
+      "reused": true,
+      "loadouts": [],
+      "area": {
+        "guid": "{ea548389-c8bb-4cc0-8da1-68b4f97c273e}",
+        "reused": false,
+        "name": "蓝方-空中预警区-R2-20261106",
+        "reference": {
+          "code": 0,
+          "data": [
+            "229ad2a4-7b75-4a93-b7aa-ff93f2725ea4",
+            "7de7f72b-f6b8-4069-850f-a0ca2727992d",
+            "b285eb49-b215-4540-864b-16f80d7b5f4a",
+            "361fae68-d368-4e36-86f7-a54812aa4195"
+          ],
+          "message": "请求成功",
+          "timestamp": "2026-11-06 10:12:10"
+        },
+        "create": {
+          "code": 0,
+          "data": {
+            "id": "{ea548389-c8bb-4cc0-8da1-68b4f97c273e}"
+          },
+          "message": "succeed",
+          "timestamp": "2026-11-06 10:12:10"
+        }
+      },
+      "outboundRoute": null,
+      "onStationRoute": null,
+      "rules": {
+        "code": 0,
+        "data": {
+          "id": "51493597-3030-4ce1-98f1-d278a4a4e598",
+          "missionBasicData": {
+            "TypeExtension": "17",
+            "assignedCombatUnit": [],
+            "classify": "支援保障",
+            "combatUnit": [
+              {
+                "children": [
+                  {
+                    "isLoad": true,
+                    "key": "bf958e6b-9af8-405c-83c0-a5c5975631f9",
+                    "label": "[多任务]E-2D型“先进鹰眼”舰载预警机((转场))(福特级航母-78)"
+                  }
+                ],
+                "key": "7dc2088d-0aba-4af1-acd4-5241b16cdf55",
+                "label": "E-2D型“先进鹰眼”舰载预警机",
+                "number": 1
+              },
+              {
+                "children": [
+                  {
+                    "isLoad": true,
+                    "key": "14fb994a-8337-45d8-ba62-01563eadba82",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#9(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "2041fc4a-b56b-4fd3-8415-dedcd6f56c7a",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#6(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "24e074a5-90f7-400f-9728-a309bf49dc25",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#11(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "2c230409-03cd-4926-a322-869889fb120e",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#4(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "32ab8650-64b0-41d8-8b59-146320b2b230",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#8(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "abf3e7e3-7eec-43b0-9043-d35be05a21e1",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#7(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "af06987e-dfe4-4a66-82b8-cbcb1daccd39",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#10(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "dbf1357e-8a79-4602-aa3b-d2a2322e15d1",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#5(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  }
+                ],
+                "key": "13c73976-e21c-4e93-bffa-02ab8e25d653",
+                "label": "F/A-18E超级大黄蜂战斗机",
+                "number": 8
+              }
+            ],
+            "dialog_type": "支援类飞机",
+            "endTime": "2026-06-06 08:00:00",
+            "id": "51493597-3030-4ce1-98f1-d278a4a4e598",
+            "name": "空中预警任务",
+            "startTime": "2026-06-05 15:02:16",
+            "status": 1,
+            "type": "Support",
+            "typeName": "支援保障"
+          },
+          "supportmissionData": {
+            "AEOOS": false,
+            "AirFuel": "0",
+            "FlightSize": "1",
+            "GroupSize": "1",
+            "MNOS": "1",
+            "MinAircraftReq": "1",
+            "OTO": false,
+            "OTR": true,
+            "OneTankingCycleOnly": true,
+            "SideWay": "默认",
+            "StationAltitude_Aircraft": "2",
+            "StationDepth_Submarine": "未定",
+            "StationThrottle_Aircraft": "1",
+            "StationThrottle_Ship": "1",
+            "StationThrottle_Submarine": "1",
+            "TransitAltitude_Aircraft": "2",
+            "TransitDepth_Submarine": "未定",
+            "TransitThrottle_Aircraft": "2",
+            "TransitThrottle_Ship": "2",
+            "TransitThrottle_Submarine": "2",
+            "UnitBTRWay": "默认",
+            "UseFlightSizeHardLimit": false,
+            "UseGroupSizeHardLimit": false,
+            "area": [
+              {
+                "id": "229ad2a4-7b75-4a93-b7aa-ff93f2725ea4",
+                "latitude": "17.4",
+                "longitude": "126.5",
+                "name": "RP47"
+              },
+              {
+                "id": "7de7f72b-f6b8-4069-850f-a0ca2727992d",
+                "latitude": "17.4",
+                "longitude": "127.7",
+                "name": "RP48"
+              },
+              {
+                "id": "b285eb49-b215-4540-864b-16f80d7b5f4a",
+                "latitude": "18.5",
+                "longitude": "127.7",
+                "name": "RP49"
+              },
+              {
+                "id": "361fae68-d368-4e36-86f7-a54812aa4195",
+                "latitude": "18.5",
+                "longitude": "126.5",
+                "name": "RP50"
+              }
+            ],
+            "area_ID": "{ea548389-c8bb-4cc0-8da1-68b4f97c273e}",
+            "area_Name": "蓝方-空中预警区-R2-20261106",
+            "area_Remark": "E-2D 空中预警支援区域"
+          }
+        },
+        "message": "succeed",
+        "timestamp": "2026-11-06 10:12:11"
+      },
+      "assign": {
+        "code": 0,
+        "data": {
+          "id": "51493597-3030-4ce1-98f1-d278a4a4e598",
+          "missionBasicData": {
+            "TypeExtension": "17",
+            "assignedCombatUnit": [
+              {
+                "children": [
+                  {
+                    "key": "bf958e6b-9af8-405c-83c0-a5c5975631f9",
+                    "label": "[单任务]E-2D型“先进鹰眼”舰载预警机((转场))(福特级航母-78)"
+                  }
+                ],
+                "key": "1d901e33-35ea-4d01-ac03-f24c72bdbe74",
+                "label": "E-2D型“先进鹰眼”舰载预警机",
+                "number": 1
+              }
+            ],
+            "classify": "支援保障",
+            "combatUnit": [
+              {
+                "children": [
+                  {
+                    "isLoad": true,
+                    "key": "14fb994a-8337-45d8-ba62-01563eadba82",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#9(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "2041fc4a-b56b-4fd3-8415-dedcd6f56c7a",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#6(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "24e074a5-90f7-400f-9728-a309bf49dc25",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#11(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "2c230409-03cd-4926-a322-869889fb120e",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#4(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "32ab8650-64b0-41d8-8b59-146320b2b230",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#8(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "abf3e7e3-7eec-43b0-9043-d35be05a21e1",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#7(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "af06987e-dfe4-4a66-82b8-cbcb1daccd39",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#10(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "dbf1357e-8a79-4602-aa3b-d2a2322e15d1",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#5(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  }
+                ],
+                "key": "4b0fb342-d4fd-4566-bac0-6f4bed7bb368",
+                "label": "F/A-18E超级大黄蜂战斗机",
+                "number": 8
+              }
+            ],
+            "dialog_type": "支援类飞机",
+            "endTime": "2026-06-06 08:00:00",
+            "id": "51493597-3030-4ce1-98f1-d278a4a4e598",
+            "name": "空中预警任务",
+            "startTime": "2026-06-05 15:02:16",
+            "status": 1,
+            "type": "Support",
+            "typeName": "支援保障"
+          },
+          "supportmissionData": {
+            "AEOOS": false,
+            "AirFuel": "0",
+            "FlightSize": "1",
+            "GroupSize": "1",
+            "MNOS": "1",
+            "MinAircraftReq": "1",
+            "OTO": false,
+            "OTR": true,
+            "OneTankingCycleOnly": true,
+            "SideWay": "默认",
+            "StationAltitude_Aircraft": "2",
+            "StationDepth_Submarine": "未定",
+            "StationThrottle_Aircraft": "1",
+            "StationThrottle_Ship": "1",
+            "StationThrottle_Submarine": "1",
+            "TransitAltitude_Aircraft": "2",
+            "TransitDepth_Submarine": "未定",
+            "TransitThrottle_Aircraft": "2",
+            "TransitThrottle_Ship": "2",
+            "TransitThrottle_Submarine": "2",
+            "UnitBTRWay": "默认",
+            "UseFlightSizeHardLimit": false,
+            "UseGroupSizeHardLimit": false,
+            "area": [
+              {
+                "id": "229ad2a4-7b75-4a93-b7aa-ff93f2725ea4",
+                "latitude": "17.4",
+                "longitude": "126.5",
+                "name": "RP47"
+              },
+              {
+                "id": "7de7f72b-f6b8-4069-850f-a0ca2727992d",
+                "latitude": "17.4",
+                "longitude": "127.7",
+                "name": "RP48"
+              },
+              {
+                "id": "b285eb49-b215-4540-864b-16f80d7b5f4a",
+                "latitude": "18.5",
+                "longitude": "127.7",
+                "name": "RP49"
+              },
+              {
+                "id": "361fae68-d368-4e36-86f7-a54812aa4195",
+                "latitude": "18.5",
+                "longitude": "126.5",
+                "name": "RP50"
+              }
+            ],
+            "area_ID": "{ea548389-c8bb-4cc0-8da1-68b4f97c273e}",
+            "area_Name": "蓝方-空中预警区-R2-20261106",
+            "area_Remark": "E-2D 空中预警支援区域"
+          }
+        },
+        "message": "succeed",
+        "timestamp": "2026-11-06 10:12:12"
+      },
+      "escort": null,
+      "target": null,
+      "verification": {
+        "code": 0,
+        "data": {
+          "missionBasicData": {
+            "TypeExtension": "17",
+            "assignedCombatUnit": [
+              {
+                "children": [
+                  {
+                    "key": "bf958e6b-9af8-405c-83c0-a5c5975631f9",
+                    "label": "[单任务]E-2D型“先进鹰眼”舰载预警机((转场))(福特级航母-78)"
+                  }
+                ],
+                "key": "717b8259-7220-43d0-826e-73ec67d07b34",
+                "label": "E-2D型“先进鹰眼”舰载预警机",
+                "number": 1
+              }
+            ],
+            "classify": "支援保障",
+            "combatUnit": [
+              {
+                "children": [
+                  {
+                    "isLoad": true,
+                    "key": "14fb994a-8337-45d8-ba62-01563eadba82",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#9(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "2041fc4a-b56b-4fd3-8415-dedcd6f56c7a",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#6(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "24e074a5-90f7-400f-9728-a309bf49dc25",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#11(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "2c230409-03cd-4926-a322-869889fb120e",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#4(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "32ab8650-64b0-41d8-8b59-146320b2b230",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#8(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "abf3e7e3-7eec-43b0-9043-d35be05a21e1",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#7(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "af06987e-dfe4-4a66-82b8-cbcb1daccd39",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#10(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  },
+                  {
+                    "isLoad": true,
+                    "key": "dbf1357e-8a79-4602-aa3b-d2a2322e15d1",
+                    "label": "[多任务]F/A-18E超级大黄蜂战斗机#5(AGM-158C型远程反舰导弹，AGM-88E先进反辐射导弹)(福特级航母-78)"
+                  }
+                ],
+                "key": "5651c63d-7aa8-4a9d-a35b-24564aa8f55b",
+                "label": "F/A-18E超级大黄蜂战斗机",
+                "number": 8
+              }
+            ],
+            "dialog_type": "支援类飞机",
+            "endTime": "2026-06-06 08:00:00",
+            "id": "51493597-3030-4ce1-98f1-d278a4a4e598",
+            "name": "空中预警任务",
+            "startTime": "2026-06-05 15:02:16",
+            "status": 1,
+            "type": "Support",
+            "typeName": "支援保障"
+          },
+          "supportmissionData": {
+            "AEOOS": false,
+            "AirFuel": "0",
+            "FlightSize": "1",
+            "GroupSize": "1",
+            "MNOS": "1",
+            "MinAircraftReq": "1",
+            "OTO": false,
+            "OTR": true,
+            "OneTankingCycleOnly": true,
+            "SideWay": "默认",
+            "StationAltitude_Aircraft": "2",
+            "StationDepth_Submarine": "未定",
+            "StationThrottle_Aircraft": "1",
+            "StationThrottle_Ship": "1",
+            "StationThrottle_Submarine": "1",
+            "TransitAltitude_Aircraft": "2",
+            "TransitDepth_Submarine": "未定",
+            "TransitThrottle_Aircraft": "2",
+            "TransitThrottle_Ship": "2",
+            "TransitThrottle_Submarine": "2",
+            "UnitBTRWay": "默认",
+            "UseFlightSizeHardLimit": false,
+            "UseGroupSizeHardLimit": false,
+            "area": [
+              {
+                "id": "229ad2a4-7b75-4a93-b7aa-ff93f2725ea4",
+                "latitude": "17.4",
+                "longitude": "126.5",
+                "name": "RP47"
+              },
+              {
+                "id": "7de7f72b-f6b8-4069-850f-a0ca2727992d",
+                "latitude": "17.4",
+                "longitude": "127.7",
+                "name": "RP48"
+              },
+              {
+                "id": "b285eb49-b215-4540-864b-16f80d7b5f4a",
+                "latitude": "18.5",
+                "longitude": "127.7",
+                "name": "RP49"
+              },
+              {
+                "id": "361fae68-d368-4e36-86f7-a54812aa4195",
+                "latitude": "18.5",
+                "longitude": "126.5",
+                "name": "RP50"
+              }
+            ],
+            "area_ID": "{ea548389-c8bb-4cc0-8da1-68b4f97c273e}",
+            "area_Name": "蓝方-空中预警区-R2-20261106",
+            "area_Remark": "E-2D 空中预警支援区域"
+          }
+        },
+        "message": "succeed",
+        "timestamp": "2026-11-06 10:12:12"
+      }
+    }
+  ]
+}

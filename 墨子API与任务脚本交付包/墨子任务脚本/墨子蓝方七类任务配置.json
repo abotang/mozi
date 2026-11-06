@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "apiBase": "http://127.0.0.1:8050/ApiCtrl/api",
+  "sideName": "蓝方",
+  "sideGuid": "bc47d6c9-2492-46a8-abe4-bbe39dc65aa8",
+  "startTime": "2026-06-05 15:02:16",
+  "endTime": "2026-06-06 08:00:00",
+  "reportPath": "reports/墨子蓝方七类任务执行报告.json",
+  "tasks": {
+    "airCombatPatrol": {
+      "enabled": true,
+      "name": "蓝方-飞机战斗巡逻-R2-20261106",
+      "missionType": "Patrol",
+      "classify": "AAW",
+      "existingMissionGuid": "a04b5f0b-c5b0-4023-9fe9-09d58d9627cd",
+      "unitGuids": ["415888b4-4203-4d1b-b80a-1c8956b0f307"],
+      "escortUnitGuids": [],
+      "targetContactGuids": [],
+      "targetKind": "Aircraft",
+      "loadoutGuid": "hsfw-dataloadout-0000000028899",
+      "area": {
+        "existingAreaGuid": "e41bb385-1e56-455d-9f60-23875b4668f2",
+        "typeId": "405",
+        "name": "蓝方-飞机巡逻区-R2-20261106",
+        "remark": "蓝方飞机战斗巡逻区域",
+        "points": []
+      },
+      "routes": null
+    },
+    "airAirStrike": {
+      "enabled": true,
+      "name": "蓝方-飞机对空打击-R2-20261106",
+      "missionType": "Strike",
+      "classify": "Air",
+      "existingMissionGuid": "7c14e834-a475-4237-96b2-0cc2f4e11db8",
+      "unitGuids": ["40398342-c0f4-4b8c-9741-e11d3b53f763"],
+      "escortUnitGuids": ["47641b17-e450-4f55-ab59-431daa791c45"],
+      "targetContactGuids": ["051ea74c-5eea-44e7-82fe-c39d16529d5f"],
+      "targetKind": "Aircraft",
+      "loadoutGuid": "hsfw-dataloadout-0000000028899",
+      "area": null,
+      "routes": null
+    },
+    "airSeaStrike": {
+      "enabled": true,
+      "name": "蓝方-飞机对海打击-R2-20261106",
+      "missionType": "Strike",
+      "classify": "SEA",
+      "existingMissionGuid": "6ccfd398-d8ce-4bbf-b2e7-87b940ff1efd",
+      "unitGuids": ["46673ac0-6bce-481e-bd77-11de8a533468"],
+      "escortUnitGuids": [],
+      "targetContactGuids": ["fa3082ce-2818-4abc-ad77-1975067bbe66"],
+      "targetKind": "Ship",
+      "loadoutGuid": "",
+      "area": null,
+      "routes": null
+    },
+    "airLandStrike": {
+      "enabled": false,
+      "name": "蓝方-飞机对地打击-请改名",
+      "missionType": "Strike",
+      "classify": "land",
+      "existingMissionGuid": "",
+      "unitGuids": ["14fb994a-8337-45d8-ba62-01563eadba82"],
+      "escortUnitGuids": [],
+      "targetContactGuids": ["请填写蓝方地面接触GUID"],
+      "targetKind": "Facility",
+      "loadoutGuid": "",
+      "area": null,
+      "routes": null
+    },
+    "airEarlyWarning": {
+      "enabled": true,
+      "name": "空中预警任务",
+      "missionType": "Support",
+      "classify": "",
+      "existingMissionGuid": "51493597-3030-4ce1-98f1-d278a4a4e598",
+      "unitGuids": ["bf958e6b-9af8-405c-83c0-a5c5975631f9"],
+      "escortUnitGuids": [],
+      "targetContactGuids": [],
+      "targetKind": "Aircraft",
+      "loadoutGuid": "",
+      "area": {
+        "existingAreaGuid": "",
+        "typeId": "407",
+        "name": "蓝方-空中预警区-R2-20261106",
+        "remark": "E-2D 空中预警支援区域",
+        "points": [
+          {"lon": 126.50, "lat": 17.40},
+          {"lon": 127.70, "lat": 17.40},
+          {"lon": 127.70, "lat": 18.50},
+          {"lon": 126.50, "lat": 18.50}
+        ]
+      },
+      "routes": null
+    },
+    "shipSeaPatrol": {
+      "enabled": true,
+      "name": "蓝方-舰艇海上巡逻-R2-20261106",
+      "missionType": "Patrol",
+      "classify": "SUR_SEA",
+      "existingMissionGuid": "0c744d3d-3b2a-4fc0-8ffd-a044cc8abf8a",
+      "unitGuids": ["70114345-48cf-4835-b19d-682d12353c15"],
+      "escortUnitGuids": [],
+      "targetContactGuids": [],
+      "targetKind": "Ship",
+      "loadoutGuid": "",
+      "area": {
+        "existingAreaGuid": "adf30375-f151-4905-af1d-88850f6889a1",
+        "typeId": "413",
+        "name": "蓝方-舰艇海上巡逻区-R2-20261106",
+        "remark": "蓝方舰艇海上巡逻区域",
+        "points": []
+      },
+      "routes": {
+        "outbound": {
+          "existingRouteGuid": "31d3bdff-f05b-446a-96e5-acf354d321f3",
+          "name": "蓝方-舰艇出航航线-R2-20261106",
+          "throttle": "2",
+          "show": true,
+          "points": []
+        },
+        "onStation": {
+          "existingRouteGuid": "17094256-5c69-4f10-a2da-7947961f852e",
+          "name": "蓝方-舰艇区内巡逻航线-R2-20261106",
+          "throttle": "2",
+          "show": true,
+          "points": []
+        }
+      }
+    },
+    "shipSeaStrike": {
+      "enabled": true,
+      "name": "蓝方-舰艇对海打击-R2-20261106",
+      "missionType": "Strike",
+      "classify": "SEA",
+      "existingMissionGuid": "25dfa3c9-ae72-484b-a1ad-53334505dd05",
+      "unitGuids": ["563a778d-9fe7-49e3-9a61-db4a371df4d5"],
+      "escortUnitGuids": [],
+      "targetContactGuids": ["fa3082ce-2818-4abc-ad77-1975067bbe66"],
+      "targetKind": "Ship",
+      "loadoutGuid": "",
+      "area": null,
+      "routes": null
+    }
+  }
+}
